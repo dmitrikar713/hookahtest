@@ -1,0 +1,315 @@
+/*************************** 
+**************************** 
+			ОБЩИЕ
+**************************** 
+***************************/
+
+
+
+ @font-face {
+		font-family: bebasneue;
+		src: url(fonts/bebasneuebook.ttf);
+ }
+  
+ body {
+	 margin: 0px;
+	 display: flex;
+	 flex-direction: column;
+ }
+ 
+ section
+ {
+	width: 100%;
+	padding-left: calc((100% - 1220px) / 2);
+	padding-right: calc((100% - 1220px) / 2);
+ }
+
+h1, h2, h3, p {
+	font-family: "bebasneue";
+}
+
+ 
+ img {	 
+	 border-radius: 3px;
+ }
+
+/*************************** 
+**************************** 
+			HERO
+**************************** 
+***************************/
+
+
+/**
+#hero {
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.bgvideo {
+	width: 100vw;
+	z-index: 0;
+	height: 100vh;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	object-fit: cover;
+	top: 0;
+}
+.overlay {
+	position: absolute;	
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 100vh;
+	width: 100%;
+	max-width: 1200px;
+	height: 100%;
+
+}
+
+
+.header {
+	font-family: bebasneue;
+	src: url(fonts/bebasneuebook.ttf);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: white;
+	font-weight: 600;	
+	font-size: 35px;
+	align-items: center;
+
+	}
+
+.header .navs {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+
+}	
+
+.logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-grow: 1;
+	max-width: 300px;
+	justify-content: space-between;
+}
+.logo span {
+	max-width: 200px;
+
+}
+.spinlogo {
+	z-index: 2;
+	width: 40%;
+	height: 40%;
+}
+.header a {
+	color: white;
+	text-decoration: none;
+	padding: 0 10px 0 10px;
+	
+}
+.header a:hover {
+	opacity: 50%;
+	
+}
+#hero {
+	background: #000;
+}
+
+*/
+/*************************** 
+**************************** 
+			KALYANNIE
+**************************** 
+***************************/
+
+#kalyannie {
+		background-color: #121212;
+		margin: 0px;
+}
+
+ .plitka {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+ }
+ 
+ .socials > img {
+	 width: 25px;
+	 fill: red;
+ }
+ 
+ .socials > img:hover {
+	 filter: brightness(150%);
+	 -webkit-filter: brightness(150%);
+ }
+ 
+ .row {
+	 display: flex;
+	 flex-irection: row;
+	 justify-content: space-between;
+	margin: 25px 0px 25px 0px;
+ }
+ 
+
+ 
+ .item {
+  flex-direction: column;
+	margin: 0px 10px 0px 10px;
+  justify-content: center;
+ }
+ 
+.itemleft {
+flex-direction: column;
+	margin: 0px 10px 0px 0px;
+  justify-content: center;
+ }
+  
+.itemright {
+  flex-direction: column;
+	margin: 0px 0px 0px 10px;
+  justify-content: center;
+ }
+ 
+ 
+.tochka_name {
+	 
+	 margin: 10px 0px 10px 0px;
+	 color: #ae9666;
+ }
+ 
+ /*************************** 
+**************************** 
+			KALYANNIE
+**************************** 
+***************************/
+
+#uzhe35 {
+	background-color: #121212;
+	color: white;
+}
+
+.uzhe35 {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+
+
+.uzhe35 > h2 {
+	flex: 1 1 250px;
+	max-width: 50vh;
+	margin: 50px 25px 25px 0px;
+}
+
+.zayavka {
+	display: block;
+	flex: 2 1 250px;
+	margin: 25px 25px 25px 25px;
+		opacity: 0.8;
+}
+.zayavka:hover {
+
+	opacity: 1;
+}
+
+.button1 {
+	background-color: white;
+	color: #ae9666;
+	box-shadow: 0px 2px 0px #ae9666;
+	min-width: 100px;
+	min-height: 25px;
+	border-radius: 25px;
+	border: 0px;
+	padding: 10px;
+  -webkit-transition: 0.2s background-color ease;
+  -moz-transition: 0.2s background-color ease;
+  -ms-transition: 0.2s background-color ease;
+  -o-transition: 0.2s background-color ease;
+  transition: 0.2s background-color ease;
+}
+
+.button1:hover {
+		background-color: #ae9666;
+	color: white;
+	box-shadow: 0px 2px 0px white;
+}
+ /*************************** 
+**************************** 
+			PLITKA2
+**************************** 
+***************************/
+
+.plitka3 {
+	 display: block;
+	 padding: 0px 10px 0px 10px;
+	 max-width: 100vw;
+ }
+ 
+ .image1 {
+	width: 280px;
+	height: 175px;
+	 display: inline-block;
+	  padding: 10px;
+	  float: left;
+ }
+ 
+.image2 {
+	width: 580px;
+	height: 370px;
+
+	 float: right;	 
+	 display: inline-block;
+	  padding: 10px;
+ }
+@media only screen and (max-device width: 540px) {
+	 .image1 {
+	width: 40vw;
+	height: 88px;
+	 }
+	  .image2 {
+	width: 80vw;
+	height: 175px;
+		box-sizing: ;
+}
+}
+
+
+/*************************** 
+**************************** 
+			СКОСЫ
+**************************** 
+***************************/
+.skos1 { 
+  shape-outside: polygon(0 0, 100% 100%, 0% 100%); 
+  clip-path: polygon(0 0, 100% 100%, 0% 100%); 
+  height: 3em; 
+  width: 100%; 
+  background: #121212;
+  margin: 0px;
+  display: block;
+  z-index: 1;
+  background: #121212;
+}
+
+.skos2 { 
+  shape-outside: polygon(0% 0%, 100% 0%, 0% 100%); 
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%); 
+  height: 100px; 
+  width: 100%; 
+  background: #121212;
+  margin: 0px;
+}
+
+h2 {
+		color: black;
+		font-size: 46px;
+		font-weight: bold;
+}
+

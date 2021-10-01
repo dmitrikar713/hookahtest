@@ -1,0 +1,49 @@
+.bronze
+  color: #ae9666
+  font-size: calc(20px + 14 * (100vw / 1220))
+  font-family: 'Bebas Neue BOLD'
+
+.zayavka
+  &_wrap
+    display: flex
+    flex-flow: row wrap
+    justify-content: flex-start
+    padding-top: 50px
+    padding-bottom: 50px
+  &_title    
+    font-size: calc(20px + 14 * (100vw / 1220))
+    font-family: 'Bebas Neue BOLD'
+  &_action
+    display: flex
+    flex-flow: column nowrap
+    margin-left: 50px
+    opacity: 50%
+    transition: 0.5s
+    &:hover
+      opacity: 100%
+    &_title
+      color: #ae9666
+      margin-bottom: 10px
+    &_button
+      color: #ae9666
+      font-family: 'Bebas Neue Regular'
+      border-radius: 10px
+      border-style: none
+      box-shadow: 0px 5px #ae9666
+      width: fit-content
+      padding: 5px 10px      
+      margin-top: 10px
+      transition: 0.5s
+      &:hover
+        color: white
+        background-color: #ae9666
+        box-shadow: 0px 5px white
+    
+
+@media (max-width: 670px) 
+  .zayavka_action
+    margin-left: 0px
+    margin-top: 20px
+  .zayavka_wrap
+    flex-direction: column
+

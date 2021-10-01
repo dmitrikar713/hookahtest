@@ -1,0 +1,35 @@
+.atmosfera
+  background-image: url("/img/atmosphere.jpg")
+  background-color: rgba(255, 255, 128, .1)
+  padding-bottom: 300px
+
+.atmosfera_wrap
+  padding-top: 56px
+
+.atmosfera_plitka
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr 1fr
+  grid-auto-flow: dense
+  grid-gap: 20px
+  margin-top: 30px
+  max-width: 100vw
+  &_item
+    border-radius: 5px
+    object-fit: fill
+    position: relative
+    >img 
+      border-radius: 10px
+      width: 100%
+      height: 100%
+.atmosfera_video
+  grid-column: span 2
+  grid-row: span 2
+  border-radius: 5px 
+.atm_video
+  width: 100%
+  height: 100%
+  object-fit: fill
+
+@media (max-width: 768px)
+  .atmosfera_plitka
+    grid-template-columns: 1fr 1fr

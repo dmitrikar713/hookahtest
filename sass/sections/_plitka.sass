@@ -1,0 +1,32 @@
+.plitka_plitka
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-between
+  &:last-child::after
+    content: ''
+    width: 50%
+
+.plitka-tochka
+  width: 22%
+  display: flex
+  flex-flow: column wrap
+  padding-bottom: 30px
+  &__img
+    width: 100%
+    margin-bottom: 10px
+  &__title
+    color: #ae9666
+  &__socials
+    padding-top: 10px
+    &__img
+      width: 30px
+      height: auto
+      filter: brightness(50%)
+      transition: 0.5s 
+    &:hover
+      filter: brightness(100%)
+
+@media (max-width: 768px) 
+  .plitka-tochka
+    width: 49%
+

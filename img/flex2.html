@@ -1,0 +1,58 @@
+<!doctpe html>
+
+
+<html>
+<head>
+<style>
+	body {
+	margin: 0px;
+	}
+	
+	.maket {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
+	
+	.header, .footer, .sidebar, .article, .nav {
+	padding: 2em;
+	}
+	
+	.header, .footer {
+	background-color: lightgreen;
+	min-height: 10vh;
+	}
+	
+	.content {
+		display: flex;
+		flex-direction: row;
+		flex-grow: 1;
+	}
+	
+	.nav, .sidebar {
+	background-color: lightgrey;
+	}
+	
+	.article {
+	flex-grow: 1;
+	}
+			@media screen and (max-width: 575px) {
+				.content {
+					display: block;
+				}
+			}
+</style>
+<body>
+<div class=maket>
+	<div class=header> Шапка </div>
+	<div class=content>
+		<div class=nav> навигация </div>
+		<div class=article> статья </div>
+		<div class=sidebar> сайдбар </div>
+	</div>
+	<div class=footer> Подвал</div>
+</div>
+</body>
+
+</head>
+</html>

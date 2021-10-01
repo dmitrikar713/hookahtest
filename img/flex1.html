@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		body {
+		margin: 0px;
+		}
+		
+		.container {
+		display: flex;
+		}
+		
+		.red {
+			background-color: orangered;
+			flex-grow: 1;
+			display: flex;
+			flex-direction: column;
+		}
+		.green {
+			background-color: yellowgreen;
+		}
+		.blue {
+			background-color: steelblue;
+		}
+		
+		.container > div, .red > div {
+		padding: 1em;
+		color: white;
+		font-size: 2vw;
+		}
+		
+		.subgreen {
+			background-color: yellowgreen;
+		}
+		.subblue {
+			background-color: steelblue;
+		}
+		
+	</style>
+</head>
+	<body>
+	<section class=container>
+		<div class=red> 
+			1 
+			<div class=subgreen> subgreen </div>
+			<div class=subblue> subblue </div>
+
+		</div>
+		<div class=green> 2 </div>
+		<div class=blue> 3 <br> Some more text </div>
+	</section>
+	</body>
+</html>
